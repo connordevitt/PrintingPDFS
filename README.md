@@ -35,10 +35,14 @@ pip install -r requirements.txt
 
 1. Open a terminal or command prompt.
 2. Navigate to the project directory:
-   cd pdf-print-automation
+```  
+ cd pdf-print-automation
+```
 
 3. Run the script:
+```
    python main.py
+```
 
 ## Logging
 
