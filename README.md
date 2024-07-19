@@ -17,13 +17,13 @@ This project automates the printing of PDF files using Adobe Acrobat DC. It walk
    ```
 
 ## Navigate to the project directory:
-
+```
 cd pdf-print-automation
-
+```
 ## Install the required dependencies:
-
+```
 pip install -r requirements.txt
-
+```
 ## Configuration
 
 1. Open the config.py file.
