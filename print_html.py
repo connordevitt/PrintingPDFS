@@ -6,7 +6,7 @@ import logging
 
 
 # Path to the PDF files
-pdf_files_path = r'C:\Users\david\Desktop\EOBS\Strata EOBs'  # Change this to your directory path
+pdf_files_path =  # Change this to your directory path
 
 
 # Path to Adobe Acrobat DC
@@ -14,8 +14,8 @@ acrobat_path = r'C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe'
 
 
 # Log file path
-log_file_path = r'C:\Users\david\Desktop\EOBS\Strata EOBs\print_log.txt'
-processed_files_path = r'C:\Users\david\Desktop\EOBS\Strata EOBs\processed_files.txt'
+log_file_path = # Use a log path
+processed_files_path =  # use a log path
 
 
 # Configure logging
@@ -56,7 +56,7 @@ def print_pdf(file_path):
         else:
             logging.warning(f"Subprocess returned non-zero exit code {result.returncode} for {file_path}")
             logging.warning(f"Subprocess error output: {result.stderr}")
-            # Optionally: Add logic here to handle specific non-zero exit codes differently if needed
+            # Add logic here to handle specific non-zero exit codes differently if needed
 
 
         # Mark the file as processed regardless of the return code
